@@ -1,0 +1,8 @@
+<a href="https://www.flaticon.com/br/icones-gratis/floral" title="floral ícones">Floral ícones criados por edt.im - Flaticon</a>
+    <a href="https://www.flaticon.com/br/icones-gratis/ramo" title="ramo ícones">Ramo ícones criados por Flat Icons - Flaticon</a>
+    <a href="https://www.flaticon.com/br/icones-gratis/botanico" title="botânico ícones">Botânico ícones criados por Freepik - Flaticon</a>
+    <a href="https://www.flaticon.com/br/icones-gratis/bicicleta" title="bicicleta ícones">Bicicleta ícones criados por Good Ware - Flaticon</a>
+    <a href="https://www.flaticon.com/br/icones-gratis/bicicleta" title="bicicleta ícones">Bicicleta ícones criados por Freepik - Flaticon</a>
+
+<img id="bikeFooter" src="./img/bicicleta.png" alt="Bicicleta">
+        <img id="galhoFooter" src="./img/galhos.png" alt="galho de arvore">
