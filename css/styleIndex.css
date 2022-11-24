@@ -68,10 +68,6 @@ header h1{
     font-size: 40px;
 }
 
-@media screen and (max-width: 650px){
-    
-}
-
 ul ul{
     display: none;
     position: fixed;
@@ -122,7 +118,7 @@ nav img{
     opacity: .7;
     position: absolute;
     bottom: 5px;
-    left: 15px;
+    left: 55px;
 }
 .close-nav{
     position:absolute;
@@ -254,6 +250,7 @@ main section>p{
 }
 
 footer{
+    margin-top: 50px;
     height: 30vh;
     background-color: var(--azulForte);
     padding: 50px;
