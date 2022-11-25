@@ -143,13 +143,13 @@ main section>img{
 main section{
     text-align: center;
 }
-main section>h2{
+.textoIntro h2{
     font-family: var(--fonteForte);
     color: var(--laranjaForte);
     margin-top: 10px;
     padding: 30px;
 }
-main section>p{
+.textoIntro p{
     width: 80vw;
     margin-left: 10vw;
     padding-bottom: 50px;
