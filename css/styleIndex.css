@@ -101,11 +101,14 @@ nav>ul{
 nav a{
     text-decoration: none;
     font-weight: bold;
-    color: var(--azulFraco)
+    color: var(--azulForte);
+    
 }
 nav a:hover{
-    color: var(--azulForte);
-    font-weight: bolder;
+    transition: .8s;
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px dashed var(--azulForte);
 }
 nav ul{
     list-style-type: none;

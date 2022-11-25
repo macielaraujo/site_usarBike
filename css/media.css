@@ -1,0 +1,138 @@
+@media screen and (min-width: 700px) {
+
+    :root{
+        /*Fontes*/
+        --fonteDestaque:'Dancing Script', cursive;
+        --fontePadrao:'Open Sans', sans-serif;
+        --fonteForte:'Roboto', sans-serif;
+        /*Cores*/
+        --verdeFraco: #BBE0AD;
+        --verdeForte: #81B377;
+        --laranjaForte: #f9af69;
+        --vermelho: #D77271;
+        --vermelhoFraco: #ffd8d8d4;
+        --azulForte: #2B4F97;
+        --azulFraco: #739EF4;
+        /*variavel controle*/
+        --index: 40;
+    }
+
+    main{
+        width: 80vw;
+        margin: auto;
+    }
+
+    .menuItem{
+        margin-right: 50px;
+    }
+
+    nav img{
+        width: 100px;
+        opacity: .8;
+        position: absolute;
+        bottom: 5px;
+        left: 150px;
+    }
+    ul ul{
+        display: none;
+        position: fixed;
+        background-color: var(--vermelhoFraco);
+        width: 60%;
+        padding: 50px;
+        text-align: center;
+        transition: top .5s;
+        border-radius: 25px;
+        right: -100px;
+        top: 70px;
+    }
+
+    main section>img{
+        width: 100%;
+        padding-bottom: 100px;
+    }
+
+    #introducao{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    #introducao p{
+        max-width: 85%;
+        margin: auto;
+        padding: 60px 0;
+    }
+    #introducao h2{
+        padding: 0;
+        font-size: 2rem;
+    }
+    .textoIntro{
+        background-color: var(--verdeFraco);
+        padding: 20px;
+        border-radius: 30px;
+    }
+    .textoIntro h2{
+        color: var(--azulForte);
+        font-size: 2rem;
+    }
+    #btnEntrar{
+        background-color: var(--verdeForte);
+        color: black;
+        margin-top: 20px;
+        border: 2px solid var(--verdeFraco);
+    }
+    #btnEntrar:hover{
+        color: white;
+    }
+    #sobre{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #sobre img{
+        width: 60%;
+        position: relative;
+        display: flex;
+        top: 50px;
+    }
+    
+    .blocoTexto{
+        display: flex;
+        flex: 70%;
+        flex-direction: column;
+        background-color: var(--laranjaForte);
+        border-radius: 20px;
+        padding: 30px;
+        border: 2px solid rgba(249, 198, 104, 0.751);
+        margin: auto 10px;
+        box-shadow: 3px 3px 8px rgba(120, 80, 5, 0.863);
+    }
+
+    #campoProduto h2{
+        padding-bottom: 100px;
+        padding-top: 50px;
+        font-size: 2rem;
+    }
+    #campoProduto{
+        background-color: floralwhite;
+        border-radius: 30px;
+        border: 2px solid antiquewhite;
+    }
+    .cardProduto{
+        max-width: 30%;
+        display: inline-block;
+        margin: 50px;
+        background-color: cornsilk;
+        color: black;
+        border: 2px solid antiquewhite;
+    }
+    .cardProduto:hover{
+        box-shadow: 2px 2px 6px var(--azulForte),
+                    -2px -2px 6px var(--azulForte),
+                    2px 2px 12px var(--azulFraco),
+                    -2px -2px 12px var(--azulFraco);
+    }
+    .cardProduto img{
+        max-width: 90%;
+    }
+}
