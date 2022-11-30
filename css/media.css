@@ -135,4 +135,51 @@
     .cardProduto img{
         max-width: 90%;
     }
+
+    #local{
+        background-color: ghostwhite;
+        max-width: 80vw;
+        margin: 100px auto;
+        
+    }
+    #local img{
+        width: 70%;
+        max-height: 100%;
+        border: 2px solid aliceblue;
+        border-radius: 5px;
+        transition: 1s;
+        margin-bottom: 40px;
+    }
+    #local a{
+        padding: 10px;
+        text-decoration: none;
+        background-color: var(--vermelho);
+        color: var(--vermelhoFraco);
+        text-align: center;
+        border-radius: 40px;
+        width: 200px;
+        cursor: pointer;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    #local a:hover{
+        color: white;
+        transition: .2s;
+        border: 1px solid var(--vermelhoFraco);
+        box-shadow: 1px 1px 2px var(--vermelhoFraco),
+                    -1px -1px 2px var(--vermelhoFraco);
+    }
+    #local a:hover i{
+        transform: translateY(-0.3em);
+    }
+    
+    #local h2{
+        font-family: var(--fonteForte);
+        color: var(--laranjaForte);
+        margin-top: 10px;
+        padding: 30px;
+    }
 }
