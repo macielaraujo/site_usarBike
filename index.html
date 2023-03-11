@@ -14,10 +14,10 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
 </head>
-<body>
+<body onresize="mudaTamanho()">
     <header>
         <h1><img src="./img/logoSimples.png" alt="Logotipo UsarBike"> UsarBike</h1>
-        <i id="mostraMenu" class="ri-apps-2-line" class="iconeTopo"></i> 
+        <i onclick="mostrar()" id="mostraMenu" class="ri-apps-2-line" class="iconeTopo"></i> 
     </header>
 
     <nav class="menuItem" id="menuItem">      
@@ -56,29 +56,37 @@
 
             <div class="cardProduto">
                 <img src="./img/bicicletaAdulto.png" alt="Bicicleta Rosa">
-                <p>Bicicleta<br>Adulto <i class="ri-money-dollar-circle-line" onclick="entrarApp()"></i></p>
+                <div onclick="entrarApp()">
+                    <p>Bicicleta<br>Adulto <i class="ri-money-dollar-circle-line"></i></p>
+                </div>
             </div>
 
             <div class="cardProduto">
                 <img src="./img/bicicletaInfantil.jpg" alt="Bicicleta Rosa">
-                <p>Bicicleta<br>Infantil <i class="ri-money-dollar-circle-line" onclick="entrarApp()"></i></p>
+                <div onclick="entrarApp()">
+                    <p>Bicicleta<br>Infantil <i class="ri-money-dollar-circle-line"></i></p>
+                </div>
             </div>
 
             <div class="cardProduto">
                 <img src="./img/triciclo.png" alt="Bicicleta Rosa">
-                <p>Triciclo<br>Idosos <i class="ri-money-dollar-circle-line" onclick="entrarApp()"></i></p>
+                <div onclick="entrarApp()">
+                    <p>Triciclo<br>Idosos <i class="ri-money-dollar-circle-line"></i></p>
+                </div>
             </div>
 
             <div class="cardProduto">
                 <img src="./img/bicicletaEquipada.png" alt="Bicicleta Rosa">
-                <p>Bicicleta<br>Equipada <i class="ri-money-dollar-circle-line" onclick="entrarApp()"></i></p>
+                <div onclick="entrarApp()">
+                    <p>Bicicleta<br>Equipada <i class="ri-money-dollar-circle-line"></i></p>
+                </div>
             </div>
 
         </section>
 
         <section id="local">
             <h2>Onde nos Encontrar</h2>
-            <img src="./img/localUsarBike.png" alt="">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7963.184280400015!2d-40.3550247!3d-3.6798899!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7eac6d989c7547f%3A0x8a5562e9ff6adccc!2sR.%20Profa.%20Francisca%20Hilma%20Gir%C3%A3o%20Borges%20-%20Campo%20dos%20Velhos%2C%20Sobral%20-%20CE!5e0!3m2!1spt-BR!2sbr!4v1678563432352!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <br>
             <a href="https://goo.gl/maps/8mHr2a54YH3C3jeE8" target="_blank">Encontre-nos <i class="ri-map-pin-line"></i></a>
         </section>

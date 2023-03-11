@@ -114,11 +114,10 @@ nav img{
     left: 55px;
 }
 
-
 main{
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 main section>img{
@@ -222,7 +221,7 @@ section#campoProduto>h2{
 }
 
 .cardProduto{
-    width: 80vw;
+    width: 70vw;
     background-color: #2B4F97;
     margin: auto;
     border-radius: 20px;
@@ -232,9 +231,11 @@ section#campoProduto>h2{
     line-height: 40px;
     margin-top: 15vh;
     margin-bottom: 5vh;
+    box-sizing: border-box;
 }
+
 .cardProduto img{
-    width: 70vw;
+    width: 60vw;
     border-radius: 10px;
     border: 2px solid antiquewhite;
     position: relative;
@@ -252,7 +253,7 @@ section#campoProduto>h2{
     font-size: 1.3em;
     text-align: center;
     display: block;
-    width: 30px;
+    width: 40px;
     margin: auto;
 }
 .cardProduto i:hover{
@@ -261,16 +262,18 @@ section#campoProduto>h2{
 
 #local{
     background-color: ghostwhite;
-    max-width: 80vw;
+    width: 100vw;
     margin: auto;
     height: 500px;
 }
-#local img{
-    width: 90%;
+#local iframe{
+    width: 80%;
+    height: 60%;
     border: 2px solid aliceblue;
     border-radius: 5px;
     transition: 1s;
-    margin-bottom: 40px;
+    margin: 0;
+    margin-bottom: 30px;
 }
 #local a{
     padding: 10px;
@@ -283,19 +286,20 @@ section#campoProduto>h2{
     cursor: pointer;
     margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-bottom: 50px;
 }
 #local a:hover{
     color: white;
-    transition: .2s;
     border: 1px solid var(--vermelhoFraco);
     box-shadow: 1px 1px 2px var(--vermelhoFraco),
                 -1px -1px 2px var(--vermelhoFraco);
+    transition: .4s;
 }
 #local a:hover i{
     transform: translateY(-0.3em);
+    transition: .5s;
 }
 
 #local h2{
@@ -321,11 +325,17 @@ footer h3{
 }
 footer i{
     color: white;
-    font-size: 20px;
+    font-size: 1.6rem;
     margin: 0 8px;
-    transition: 1s;
     cursor: pointer;
     position: relative;
+    border: none;
+    border-radius: 50%;
+    transition: .6s;
+}
+footer i:hover{
+    box-shadow: 0px 2px 1px var(--azulFraco);
+    color: mediumspringgreen;
 }
 .redeSocial{
     margin-bottom: 20px;
