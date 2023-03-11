@@ -51,10 +51,10 @@ header h1>img{
     justify-content: space-around;
     transition: .8s;
 }
-#mostraMenu:hover{
+/*#mostraMenu:hover{
     color: var(--azulFraco);
     cursor: pointer;
-}
+}*/
 header h1{
     font-family: var(--fonteDestaque);
     font-weight: bolder;
@@ -167,6 +167,7 @@ main section{
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
+    box-sizing: border-box;
 }
 .ri-arrow-drop-right-line{
     font-size: 40px;
@@ -174,11 +175,11 @@ main section{
 }
 #btnEntrar:hover{
     color: var(--verdeForte);
-    transition: .2s;
     border: 1px solid var(--verdeForte);
     box-shadow: 1px 1px 2px var(--verdeForte),
                 -1px -1px 2px var(--verdeForte);
-    font-weight: bolder;
+                font-weight: 600;
+    transition: .2s;
 }
 #btnEntrar:hover i{
     transform: translateX(.3em);
