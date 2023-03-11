@@ -30,7 +30,6 @@
 }
 header{
     font-size: 1em;
-    width: 100vw;
     height: 150px;
     display: flex;
     flex-direction: row;
@@ -40,7 +39,7 @@ header{
     padding-right: 10px;
     
     z-index: 3;
-    box-shadow: 1px 1px 8px var(--azulFraco);
+    box-shadow: 0px 1px 5px var(--azulFraco);
     background-color: white;
 }
 header h1>img{
@@ -71,6 +70,7 @@ header h1{
 }
 
 nav{
+    display: none;
     height: 200px;
     position: relative;
     background-color: #90b2f74e;
