@@ -70,6 +70,7 @@ header h1{
 }
 
 nav{
+    width: 100vw;
     display: none;
     height: 200px;
     position: relative;
@@ -106,7 +107,7 @@ nav ul{
 nav ul>li{
     padding: 10px;
 }
-nav img{
+nav ul img{
     width: 50px;
     opacity: .7;
     position: absolute;
@@ -133,8 +134,8 @@ main section{
     padding: 30px;
 }
 .textoIntro p{
-    width: 80vw;
-    margin-left: 10vw;
+    width: 80%;
+    margin-left: 10%;
     padding-bottom: 50px;
 }
 #btnEntrar{
@@ -193,13 +194,13 @@ main section{
 }
 
 .blocoTexto{
-    width: 80vw;
+    width: 80%;
     margin: auto;
     background-color: var(--laranjaForte);
     border-radius: 20px;
     padding: 30px;
     border: 2px solid rgba(249, 198, 104, 0.751);
-    margin-bottom: 10vh;
+    margin-bottom: 10%;
 }
 .blocoTexto h2{
     padding: 30px;
@@ -221,7 +222,7 @@ section#campoProduto>h2{
 }
 
 .cardProduto{
-    width: 70vw;
+    width: 70%;
     background-color: #2B4F97;
     margin: auto;
     border-radius: 20px;
@@ -229,13 +230,13 @@ section#campoProduto>h2{
     text-align: center;
     color: var(--azulForte);
     line-height: 40px;
-    margin-top: 15vh;
-    margin-bottom: 5vh;
+    margin-top: 15%;
+    margin-bottom: 5%;
     box-sizing: border-box;
 }
 
 .cardProduto img{
-    width: 60vw;
+    width: 60%;
     border-radius: 10px;
     border: 2px solid antiquewhite;
     position: relative;
@@ -262,7 +263,7 @@ section#campoProduto>h2{
 
 #local{
     background-color: ghostwhite;
-    width: 100vw;
+    width: 100%;
     margin: auto;
     height: 500px;
 }

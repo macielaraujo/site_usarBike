@@ -121,7 +121,7 @@
     }
     #campoProduto{
         background-color: floralwhite;
-        border-radius: 30px;
+        margin-bottom: 30px;
         border: 2px solid antiquewhite;
     }
     .cardProduto{
@@ -133,10 +133,7 @@
         border: 2px solid antiquewhite;
     }
     .cardProduto:hover{
-        box-shadow: 2px 2px 6px var(--azulForte),
-                    -2px -2px 6px var(--azulForte),
-                    2px 2px 12px var(--azulFraco),
-                    -2px -2px 12px var(--azulFraco);
+        cursor: pointer;
     }
     .cardProduto img{
         max-width: 90%;
@@ -187,5 +184,34 @@
         color: var(--laranjaForte);
         margin-top: 10px;
         padding: 30px;
+    }
+}
+
+
+@media screen and (min-width: 990px) {
+    header{
+        height: 110px;
+    }
+    main{
+        width: 60%;
+        margin: auto;
+        box-sizing: content-box;
+    }
+
+    #campoProduto{
+        background-color: floralwhite;
+        margin-bottom: 100px;
+        border: 2px solid antiquewhite;
+    }
+    .cardProduto{
+        max-width: 30%;
+        display: inline-block;
+        margin: 50px;
+        background-color: cornsilk;
+        color: black;
+        border: 2px solid antiquewhite;
+    }
+    .cardProduto:hover{
+        cursor: pointer;
     }
 }
