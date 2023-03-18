@@ -120,7 +120,7 @@ main{
     padding-top: 50px;
 }
 
-main section>img{
+main section>div>img{
     width: 100%;
 }
 main section{
