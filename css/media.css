@@ -137,6 +137,7 @@
     }
     .cardProduto img{
         max-width: 90%;
+        
     }
 
     #local{
@@ -213,5 +214,12 @@
     }
     .cardProduto:hover{
         cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .cardProduto img{
+        width: 220px;
+        height: 170px;
     }
 }
